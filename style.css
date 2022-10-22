@@ -1,0 +1,191 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #eaece5;
+ font-family: "Times New Roman", Times, serif;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #563f46;
+  text-align: center;
+  font-size: 50px;
+  margin: 2px;
+  line-height: 60px;
+  letter-spacing: 12px;
+  font-family: "Roboto Mono", sans-serif;
+  margin: 2px;
+  padding: 15px 15px 15px 15px;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  color: #7a3b2e;
+  font-family: "Roboto Mono", sans-serif;
+  line-height: 1.3em;
+  letter-spacing: 3px;
+  
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #c8c3cc;
+}
+
+
+h3 {
+  font-family: "Roboto Mono", sans-serif;
+  color: #556B2F;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+p {
+  font-family: "Roboto Mono", sans-serif;
+  color: black;
+  font-style: oblique;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.mainMessage {
+  line-height: 30px;
+  font-family: "Roboto Mono", sans-serif;
+  margin: 2px;
+  padding: 10px 10px 10px 10px;
+  color: #36486b;
+  text-align: center;
+}
+
+h4{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+div {
+  font-family: "Roboto Mono", sans-serif;
+  color: black;
+  font-style: oblique;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* STYLE IMAGES */
+img {
+  display: block;      
+  width: 90%;          
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: floralwhite;
+  border-width: 8px;
+  border-radius: 2px;
+} 
+.row {
+  display: flex;
+}
+
+.section {
+  flex: 50%;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+.action-row {
+  display: flex;
+}
+.action-section {
+  flex: 33.33%;
+  padding: 5px;
+  width: 100px;
+  
+}
+
+.action-row1 {
+  display: flex;
+}
+.action-section1 {
+  flex: 50%;
+  padding: 5px;
+  
+}
+
+.img {
+  width: 300px;
+  height: 200px;
+}
+/* STYLE NAV BAR */
+ul.nav {
+  list-style-type: none;        
+  overflow: hidden;
+  background-color: #768ecb;
+  border-style: solid;
+  border-color: #768393;
+}
+li.nav-item {
+  display: inline;       
+  float: right;           
+  padding: 5px;
+  font-family: "Roboto Mono", sans-serif;
+}
+
+li.nav-item a {   
+  font-size: 15px;
+  color: #16213b;
+  
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li.nav-item a:hover {
+  background-color: floralwhite;
+  color: #937297;
+}
+/* STYLE BUTTONS */
+#text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: #6A2E2A;
+}
+
+#myButton {
+  background-color: #eaece5;
+  color: black;
+  font-weight: bold;
+  border: 2px solid #5A3E36;
+  text-align: center;
+  padding: 15px 32px;
+  font-size: 16px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  margin: 0 auto;
+  display: block;
+}
+
+#myButton:hover {
+  background-color: #5A3E36;
+  color: white;
+}
+/* ADD MORE! */
+#fact {
+  text-align: center;
+  font-weight: bold;
+  font-style: normal;
+  color: #5A3E36;
+  font-size: 20px;
+}
